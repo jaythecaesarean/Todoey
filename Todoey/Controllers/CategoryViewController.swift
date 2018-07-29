@@ -9,6 +9,7 @@
 import UIKit
 //import CoreData
 import RealmSwift
+import SwipeCellKit
 
 class CategoryViewController: UITableViewController {
     
