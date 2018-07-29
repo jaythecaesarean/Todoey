@@ -88,8 +88,7 @@
 				F545570621085C7C0055F79C /* Controllers */,
 				F545570521085C550055F79C /* DataModel */,
 				F545570721085C990055F79C /* Views */,
-				F54556F821082C2D0055F79C /* Assets.xcassets */,
-				F54556FA21082C2D0055F79C /* LaunchScreen.storyboard */,
+				F5C3E762210DC72B00252393 /* Supporting Files */,
 				F54556FD21082C2D0055F79C /* Info.plist */,
 			);
 			path = Todoey;
@@ -119,6 +118,15 @@
 				F54556F521082C2B0055F79C /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F5C3E762210DC72B00252393 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F54556F821082C2D0055F79C /* Assets.xcassets */,
+				F54556FA21082C2D0055F79C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,7 +397,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UA9FVMMNK6;
 				INFOPLIST_FILE = Todoey/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.jaycaesar.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -405,7 +416,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UA9FVMMNK6;
 				INFOPLIST_FILE = Todoey/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.jaycaesar.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
